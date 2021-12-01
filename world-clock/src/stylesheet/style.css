@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: white;
+}
+body{
+    background-color: rgb(20, 20, 20);
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: .6rem .9rem;
+    font-weight: bold;
+    background-color: #202B33;
+    color: white;
+    border: unset;
+    font-size: 1.2rem;
+    margin: 1rem .5rem;
+    border-radius: .2rem;
+}
+
+button:hover,.arrow:hover{
+    background-color: rgb(65, 131, 124);
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+}
+.timers{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+}
+span{
+    font-size: 3.4rem;
+
+   
+}
+.left{
+    margin-left: .3rem;
+}
+
+.watch{
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #161B1F;
+    padding: 1rem 1.9rem;
+    margin-right: 1rem;
+    position: relative;
+    margin: 1rem 1rem;
+}
+
+.icon{
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+}
+i{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+small{
+    font-size: 1.2rem;
+}
+
+.arrow{
+    background-color: #202B33;
+    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem .5rem;
+    border-radius: .2rem;
+}
+
+
+
+.arrow i{
+    font-size: 1.4rem;
+}
+
+.countdown{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
